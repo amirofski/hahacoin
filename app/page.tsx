@@ -15,7 +15,7 @@ export default function Home() {
       </div>
 
       {/* Navigation Bar */}
-      <nav className="sticky top-0 z-50 bg-white/80  px-4 sm:px-8 py-3 flex justify-between items-center">
+      <nav className="sticky top-0 z-50 bg-white/80 px-4 sm:px-8 py-3 flex justify-between items-center max-w-[1200px] mx-auto w-full">
         <div className="flex items-center gap-3">
           <Image
             src="/logo.svg"
@@ -32,7 +32,7 @@ export default function Home() {
       </nav>
 
       {/* Main Content */}
-      <main className="container mx-auto px-4 sm:px-8 py-12 sm:py-20">
+      <main className="max-w-[1200px] mx-auto px-4 sm:px-8 py-12 sm:py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           {/* Text Section */}
           <div className="flex flex-col gap-6 order-2 lg:order-1">
