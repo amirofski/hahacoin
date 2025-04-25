@@ -95,8 +95,6 @@ export default function Home() {
                 height={80}
               />
             </div>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3389355875819710"
-     crossorigin="anonymous"></script>
             {/* Security Icon */}
             <div className="absolute top-[30%] right-[15%] animate-pulse">
               <Image
